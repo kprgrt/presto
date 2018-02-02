@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Project\POC_Scripts\Devops_app\Presto_Employee_WithdrawMoney
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\project\poc_scripts\devops_app\presto_employee_withdrawmoney\\logfile.log
+d:\project\poc_scripts\devops_app\presto_employee_withdrawmoney\\combined_Presto_Employee_WithdrawMoney.c
+d:\project\poc_scripts\devops_app\presto_employee_withdrawmoney\\pre_cci.c

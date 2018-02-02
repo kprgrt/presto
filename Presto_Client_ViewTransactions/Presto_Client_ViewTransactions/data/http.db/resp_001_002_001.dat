@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <!-- Note: It is strongly recommended that you do NOT make large changes to this file. Changing DOM structure or classes may prevent
+         the page from functioning correctly. Especially important pieces have been marked as such with comments
+         and should not be changed for any reason. -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="never" />
+    <title localize="[content_filter_denied.httpMessage]">Access Denied</title>
+
+
+
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        WARNING: DO NOT REMOVE!
+        THIS SECTION LOADS ALL PAGE FUNCTIONALITY
+        REMOVING THIS WILL PREVENT BLOCK PAGES FROM FUNCTIONING CORRECTLY
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- START --- DO NOT REMOVE --- START -->
+        <script type="text/javascript">
+            // evaluate these on the proxy and make them available as js vars...
+var hashedpw = "";
+var jumpto = "";
+
+var coach_continue_url = "";
+var application_name = "none";
+var application_action_name = "-";
+var response_categories = "Placeholders";
+var url_host = "35.162.119.3";
+var url_address = "35.162

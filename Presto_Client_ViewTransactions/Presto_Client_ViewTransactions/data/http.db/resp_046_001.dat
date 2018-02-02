@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <!-- Note: It is strongly recommended that you do NOT make large changes to this file. Changing DOM structure or classes may prevent
+         the page from functioning correctly. Especially important pieces have been marked as such with comments
+         and should not be changed for any reason. -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="never" />
+    <title localize="[content_filter_denied.httpMessage]">Access Denied</title>
+
+
+
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        WARNING: DO NOT REMOVE!
+        THIS SECTION LOADS ALL PAGE FUNCTIONALITY
+        REMOVING THIS WILL PREVENT BLOCK PAGES FROM FUNCTIONING CORRECTLY
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- START --- DO NOT REMOVE --- START -->
+        <script type="text/javascript">
+            // evaluate these on the proxy and make them available as js vars...
+var hashedpw = "";
+var jumpto = "";
+
+var coach_continue_url = "";
+var application_name = "none";
+var application_action_name = "-";
+var response_categories = "Placeholders";
+var url_host = "35.162.119.3";
+var url_address = "35.162.119.3";
+var url_port = "80";
+var client_address = "10.109.60.187";
+var category_review_url = "http://sitereview.bluecoat.com/sitereview.jsp?referrer=136&url=http://35.162.119.3/Presto/bootstrap/js/jquery.js";
+var last_error = "";
+var x_cs_auth_form_action_url = "https://saml.threatpulse.net:8443/?bcfru=aHR0cDovLzM1LjE2Mi4xMTkuMy9QcmVzdG8vYm9vdHN0cmFwL2pzL2pxdWVyeS5qcw==";
+var x_auth_challenge_string = "";
+var x_cs_auth_form_domain_field = "";
+var cs_username = "arun.negi@sgn.co.uk";
+var x_cs_auth_request_id = "";
+var x_auth_private_challenge_state = "";
+var sc_auth_status = "";
+var reason = "Either 'force_deny' or 'force_exception' was matched in policy";
+var method = "GET";
+var x_radius_splash_username = "";
+var x_radius_splash_session_id = "0";
+var x_rs_ocsp_error = "";
+var x_virus_id = "";
+var x_virus_details = "";
+var empty = "";
+var ssl_failure_reason = "";
+var server_connection_socket_errno = "";
+var icap_error_details = "";
+var redirect_location = "";
+
+window.onload = function() {
+    var externalLinks = function() {
+        if (!document.getElementsByTagName) return;
+        var anchors = document.getElementsByTagName("a");
+        for (var i=0; i<anchors.length; i++) {
+            var anchor = anchors[i];
+            var rel = anchor.getAttribute("rel") || '';
+            if (anchor.getAttribute("href") && rel === "external") {
+                anchor.target = "_blank";
+            }
+            anchor.setAttribute("rel", rel + " noreferrer");
+        }
+    };
+    externalLinks();
+
+    if (errors.length != 0 ) {
+        var localize = function() {
+            var find = $("[localize]");
+
+            $(find).each(function(){
+                var transTxtKey;
+                var key=$(this).attr('localize').replace("[","").replace("]","");
+                var keys=key.split(/\./);
+
+                if (keys.length < 1) {
+                    return false;
+                }
+
+                var summary = errors[keys[0]].httpMessage;
+                var textObject = errors;
+                while(keys.length > 0) {
+                    textObject = textObject[keys.shift()];
+                }
+                transTxtKey = textObject;
+
+                $(this).html(transTxtKey);
+            });
+
+        };
+        localize();
+    }
+
+// once localized, replace the non-runtime evaluated variables with live content.
+    var fixprxevals = function() {
+// todo: drive this from an array or tidy it up.
+        $("a#coach-continue-url").attr("href", coach_continue_url);
+        $("#application-name").text('\"' + application_name + '\"');
+        $("#application-action-name").text('\"' + application_action_name + '\"');
+        $("#response-categories").text('\"' + response_categories + '\"');
+        $("#url-host").text('\"' + url_host + '\"');
+        $("#url-address").text('\"' + url_address + '\"');
+        $("#url-port").text('\"' + url_port + '\"');
+        $("#client_address").text('\"' + client_address + '\"');
+        $("#category-review-url").html('<a href="' + category_review_url + '">http://sitereview.bluecoat.com</a>');
+        $("#last-error").text('\"' + last_error + '\"');
+        $("#x-cs-auth-form-action-url").text('\"' + x_cs_auth_form_action_url + '\"');
+        $("#x-auth-challenge-string").text('\"' + x_auth_challenge_string + '\"');
+        $("#x-cs-auth-form-domain-field").text('\"' + x_cs_auth_form_domain_field + '\"');
+        $("#cs-username").text('\"' + cs_username + '\"');
+        $("#x-cs-auth-request-id").text('\"' + x_cs_auth_request_id + '\"');
+        $("#x-auth-private-challenge-state").text('\"' + x_auth_private_challenge_state + '\"');
+        $("#sc-auth-status").text('\"' + sc_auth_status + '\"');
+        $("#reason").text('\"' + reason + '\"');
+        $("#method").text('\"' + method + '\"');
+        $("#x-radius-splash-username").text('\"' + x_radius_splash_username + '\"');
+        $("#x-radius-splash-session-id").text('\"' + x_radius_splash_session_id + '\"');
+        $("#x-rs-ocsp-error").text('\"' + x_rs_ocsp_error + '\"');
+        $("#x-virus-id").text('\"' + x_virus_id + '\"');
+        $("#x-virus-details").text('\"' + x_virus_details + '\"');
+//    $("#proxy-sg-private-challenge-state").attr("value", proxy-sg-private-challenge-state);
+//    $("#proxy-sg-request-id").attr("value", proxy_sg_request_id);
+        $("#cpUsername").attr("value", cs_username);
+        $("#ssl-failure-reason").text('\"' + ssl_failure_reason + '\"');
+        $("#server-connection-socket-errno").text('\"' + server_connection_socket_errno + '\"');
+        $("#icap-error-details").text('\"' + icap_error_details + '\"');
+        $("a#redirect-location").attr("href", redirect_location);
+        $("a#site-review").attr("href", "http://sitereview.bluecoat.com/index.jsp?referrer=bccloud&url=" + url_host);
+    };
+    fixprxevals();
+
+    $("#pwinput").keypress(function(e) {
+        if(e.keyCode==13) { return false; }
+    });
+
+    $("#pwinput").focus();
+    $("#sesame").click(function() {
+        var supplied = $("#pwinput").attr("value");
+        var hashed = $.md5(supplied).toUpperCase();
+        if(supplied) {
+            valpw(hashed); return false;
+        } else {
+            $("#errorNotify").show("fast");
+            var trans = errors["validations"].password_override.notSupplied;
+            $("#errorNotify").html("<div localize='[validations.password_override.notSupplied]'>" + trans + "</div>");
+            $("#pwinput").addClass("error");
+            return false;
+        }
+    });
+
+    var detailsShowing = false;
+    $('.detFlip').click(function() {
+        if(!detailsShowing){
+            $("#detMore").hide();
+            $("#detLess").show();
+            $("#additionalInfo").show('fast');
+        } else {
+            $("#detMore").show();
+            $("#detLess").hide();
+            $("#additionalInfo").hide('fast');
+        }
+        detailsShowing = !detailsShowing;
+    });
+    $("#pwinput").click(function() {
+        $("#errorNotify").hide("fast");
+        $("#pwinput").removeClass("error");
+        this.value = "";
+    });
+
+    var goTo = function(url) {
+        var a = document.createElement("a");
+        if(!a.click) {
+            window.location=url;
+            return;
+        }
+        a.setAttribute("href", url);
+        a.style.display = "block";
+        $("body").append(a);
+        a.click();
+    };
+
+    function valpw(hashed) {
+        if(hashed==hashedpw) {
+            goTo(jumpto);
+        } else {
+            $("#errorNotify").show("fast");
+            var trans = errors.validations.password_override.incorrectPassword;
+            $("#errorNotify").html("<div localize='[validations.password_override.incorrectPassword]'>" + trans + "</div>");
+            $("#pwinput").addClass("error");
+            return false;
+        }
+    }
+
+    if($('#contactNameValue').text() === '') $('#contactName').hide();
+    if($('#contactPhoneValue').text() === '') $('#contactPhone').hide();
+    if($('#contactEmailValue').text() === '') $('#contactEmail').hide();
+
+};
+
+document.writeln('

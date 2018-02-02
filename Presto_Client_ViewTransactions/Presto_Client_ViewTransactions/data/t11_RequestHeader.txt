@@ -1,0 +1,10 @@
+GET http://35.162.119.3/Presto/user/viewcl HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://35.162.119.3/Presto/user/welcome.jsp
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Host: 35.162.119.3
+Proxy-Connection: Keep-Alive
+Cookie: JSESSIONID=8D8ADF743CF507AE3B55FC2475D57374
+Accept-Encoding: gzip, deflate
+

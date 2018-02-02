@@ -1,0 +1,1 @@
+"with.clid=123456&with.details=withdraw+money&with.amount=10&submit="

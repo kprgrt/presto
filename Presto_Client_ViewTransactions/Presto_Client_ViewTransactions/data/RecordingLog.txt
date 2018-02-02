@@ -1,0 +1,563 @@
+[API Trapper      ( 298: 4f0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1c64:1260)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (1208:1af4)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (1208:2e48)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1208:2e48)] Load Network Traffic Analyzers:
+[Network Analyzer (1208:2e48)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1208:2e48)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1208:2e48)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1208:2e48)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1208:2e48)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1208:2e48)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1208:2e48)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1208:2e48)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1208:29d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2174)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2e48)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2174)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/"   
+[Network Analyzer (1208:29d0)]   (Sid:  1) Client -> Server @ : 298 bytes (Service=HTTP)
+[Network Analyzer (1208:2e48)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid:  1) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  1) Server -> Client : 2743 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"   
+[Network Analyzer (1208:29d0)]   (Sid:  1) Client -> Server @ : 381 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"   
+[Network Analyzer (1208:2174)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2e48)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1334)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:29d0)]   (Sid:  2) Client -> Server @ : 392 bytes (Service=HTTP)
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: db4)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2174)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1208:2e48)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/slide-02.jpg"   
+[Network Analyzer (1208:29d0)]   (Sid:  3) Client -> Server @ : 418 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/basic.css"   
+[Network Analyzer (1208:29d0)]   (Sid:  4) Client -> Server @ : 367 bytes (Service=HTTP)
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1208:1334)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/logo.png"   
+[Network Analyzer (1208:29d0)]   (Sid:  5) Client -> Server @ : 414 bytes (Service=HTTP)
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/slide-01.jpg"   
+[Network Analyzer (1208:29d0)]   (Sid:  6) Client -> Server @ : 418 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/jquery.js"   
+[Network Analyzer (1208:29d0)]   (Sid:  7) Client -> Server @ : 396 bytes (Service=HTTP)
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"   
+[Network Analyzer (1208:29d0)]   (Sid:  8) Client -> Server @ : 399 bytes (Service=HTTP)
+[Network Analyzer (1208: db4)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/slide-03.jpg"   
+[Network Analyzer (1208:29d0)]   (Sid:  9) Client -> Server @ : 418 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/holder.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 10) Client -> Server @ : 396 bytes (Service=HTTP)
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  5) Server -> Client : 3200 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 11) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  5) Server -> Client : 11063 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  6) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  7) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  6) Server -> Client : 4802 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  7) Server -> Client : 11063 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 11) Server -> Client : 39 bytes 
+[Network Analyzer (1208:29d0)]   (Sid:  8) Server -> Client : 13305 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  8) Server -> Client : 1111 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  9) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 10) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  2) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: db4)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:20cc)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (1208: db4)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/favicon.ico"   
+[Network Analyzer (1208:29d0)]   (Sid: 12) Client -> Server @ : 293 bytes (Service=HTTP)
+[Network Analyzer (1208:20cc)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 12) Server -> Client : 1765 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 14) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208: b38)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1208:29d0)]   (Sid: 14) Server -> Client : 39 bytes 
+[Network Analyzer (1208:1964)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1334)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 15) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:1334)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 16) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 509 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 16) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:1964)] SSLAccept(ssl_id = 236201608 = 0E142688) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:1964)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1208: b38)] SSLAccept(ssl_id = 236206488 = 0E143998) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208: b38)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (1c64:3098)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1c64:3098)] Load Network Traffic Analyzers:
+[Network Analyzer (1c64:3098)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1c64:3098)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1c64:3098)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1c64:3098)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1c64:3098)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1c64:3098)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1c64:3098)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1c64:3098)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1c64:1b94)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1c64:3098)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1c64:3098)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1c64:1b94)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (1c64:1b94)]   (Sid:  1) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  1) Server -> Client : 39 bytes 
+[User action                 ] StartTransactionEvent 02_Click_LoginPortal [Network Analyzer (1c64:32d8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1c64:19a0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1c64:19a0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/login-portal.jsp"   
+[Network Analyzer (1208:29d0)]   (Sid: 17) Client -> Server @ : 405 bytes (Service=HTTP)
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 17) Server -> Client : 1616 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 17) Server -> Client : 2590 bytes  (Service=HTTP)
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1334)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"   
+[Web Request      (1c64:1b94)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%204.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 18) Client -> Server @ : 397 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Client -> Server @ : 192 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 17) Client -> Server @ : 408 bytes (Service=HTTP)
+[Network Analyzer (1208: db4)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/logo.png"   
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 19) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1208:1334)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/basic.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 20) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"   
+[Web Request      (1c64:1b94)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%204.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 21) Client -> Server @ : 415 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Client -> Server @ : 192 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/jquery.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 22) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/login.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 23) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (1208: db4)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 24) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 17) Server -> Client : 1600 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 17) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 24) Server -> Client : 39 bytes 
+[Web Request      (1c64:1b94)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%204.crt"   
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208:17a4)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1208:29d0)]   (Sid: 18) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 18) Server -> Client : 1360 bytes  (Service=HTTP)
+[Net An. Error    (1c64:32d8)] SSLAccept(ssl_id = 2205432987152 = 000002017E0CBE10) Failed, ctx = 000002017E0A9550, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Network Analyzer (1208:29d0)]   (Sid: 18) Connection Terminated (by Client)
+[Net An. Error    (1c64:32d8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 19) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 19) Server -> Client : 5187 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 19) Server -> Client : 5543 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 19) Server -> Client : 427 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 20) Server -> Client : 13189 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 21) Server -> Client : 13545 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 21) Server -> Client : 871 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (1c64:1564)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:29d0)]   (Sid: 22) Server -> Client : 8002 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 23) Server -> Client : 14364 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1c64:1b94)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1c64:1564)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 22) Connection Terminated (by Client)
+[Web Request      (1c64:1b94)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (1c64:1b94)]   (Sid:  3) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (1c64:1b94)]   (Sid:  3) Server -> Client : 39 bytes 
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Net An. Error    (1208:17a4)] SSLAccept(ssl_id = 236204536 = 0E1431F8) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:17a4)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1c64:1bf8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1208:29d0)]   (Sid: 25) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 25) Server -> Client : 39 bytes 
+[Web Request      (1c64:1b94)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%204.crt"   
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208:2820)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1c64:1b94)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%204.crt"   
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Client -> Server @ : 192 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 16) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1c64:1bf8)] SSLAccept(ssl_id = 2205433563552 = 000002017E1589A0) Failed, ctx = 000002017E0A9550, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1c64:1bf8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 16) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:2820)] SSLAccept(ssl_id = 236202096 = 0E142870) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:2820)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1c64:1b94)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 25) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent 02_Click_LoginPortal [User action                 ] StartTransactionEvent 3_SelectUser [Network Analyzer (1208:20cc)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1334)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:20cc)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (1208:1334)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/user/login.jsp"   
+[Network Analyzer (1208:29d0)]   (Sid: 26) Client -> Server @ : 419 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 26) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 26) Server -> Client : 3020 bytes  (Service=HTTP)
+[Network Analyzer (1208:1334)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:20cc)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 27) Client -> Server @ : 395 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 26) Server -> Client : 202 bytes  (Service=HTTP)
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 26) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer (1208:1334)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (1208:20cc)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/basic.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 28) Client -> Server @ : 381 bytes (Service=HTTP)
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/login.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 29) Client -> Server @ : 381 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/logo.png"   
+[Network Analyzer (1208:29d0)]   (Sid: 30) Client -> Server @ : 428 bytes (Service=HTTP)
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/jquery.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 31) Client -> Server @ : 410 bytes (Service=HTTP)
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 32) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 33) Client -> Server @ : 413 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 32) Server -> Client : 39 bytes 
+[Network Analyzer (1208:29d0)]   (Sid: 26) Server -> Client : 4800 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 26) Server -> Client : 5543 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 27) Server -> Client : 1600 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 27) Server -> Client : 1600 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (1208:1698)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 15) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 28) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 29) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 29) Server -> Client : 4802 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 30) Server -> Client : 11107 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 31) Server -> Client : 14403 bytes  (Service=HTTP)
+[Net An. Error    (1208:1698)] SSLAccept(ssl_id = 236203560 = 0E142E28) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Network Analyzer (1208:29d0)]   (Sid: 31) Connection Terminated (by Server)
+[Net An. Error    (1208:1698)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 33) Server -> Client : 12467 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 33) Server -> Client : 1949 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 35) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 35) Server -> Client : 39 bytes 
+[Network Analyzer (1208:21c8)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 16) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 16) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:21c8)] SSLAccept(ssl_id = 236204048 = 0E143010) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:21c8)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[User action                 ] EndTransactionEvent 3_SelectUser [Network Analyzer (1208:29d0)]   (Sid: 35) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 4_Login [Network Analyzer (1208:29d0)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (1208:29d0)] "POST http://35.162.119.3/Presto/user/clientlogin"   
+[Network Analyzer (1208:29d0)]   (Sid: 36) Client -> Server @ : 554 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 36) Server -> Client : 165 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/user/welcome.jsp"   
+[Network Analyzer (1208:29d0)]   (Sid: 36) Client -> Server @ : 437 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 36) Server -> Client : 4669 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 36) Client -> Server @ : 397 bytes (Service=HTTP)
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2e48)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 37) Client -> Server @ : 408 bytes (Service=HTTP)
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 39)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 38) Client -> Server @ : 415 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/basic.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 39) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (1208:2e48)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 40)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/logo.png"   
+[Network Analyzer (1208:29d0)]   (Sid: 40) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/jquery.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 41) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 42)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 42) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 36) Server -> Client : 4800 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 42) Server -> Client : 39 bytes 
+[Network Analyzer (1208:29d0)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (1208:2bbc)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 15) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 37) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 37) Server -> Client : 4802 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 1869 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 38) Server -> Client : 3200 bytes  (Service=HTTP)
+[Net An. Error    (1208:2bbc)] SSLAccept(ssl_id = 236204536 = 0E1431F8) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:2bbc)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 38) Server -> Client : 5187 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 39) Server -> Client : 8002 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 39) Server -> Client : 5187 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 40) Server -> Client : 14263 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 41) Server -> Client : 14403 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 40) Server -> Client : 94 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 41) Connection Terminated (by Client)
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 43) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 43) Server -> Client : 39 bytes 
+[Network Analyzer (1208:13a4)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 16) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 16) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:13a4)] SSLAccept(ssl_id = 236204048 = 0E143010) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:13a4)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 43) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent 4_Login [User action                 ] StartTransactionEvent 5_ViewTransactions_Client [Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/user/viewcl"   
+[Network Analyzer (1208:29d0)]   (Sid: 44) Client -> Server @ : 416 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 44) Server -> Client : 2864 bytes  (Service=HTTP)
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 45) Client -> Server @ : 392 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 44) Server -> Client : 7674 bytes  (Service=HTTP)
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 44) Client -> Server @ : 403 bytes (Service=HTTP)
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (1208: db4)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:20cc)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/basic.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 46) Client -> Server @ : 378 bytes (Service=HTTP)
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 48)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/logo.png"   
+[Network Analyzer (1208:29d0)]   (Sid: 47) Client -> Server @ : 425 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/jquery.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 48) Client -> Server @ : 407 bytes (Service=HTTP)
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 49)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 49) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:20cc)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 50)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 50) Client -> Server @ : 410 bytes (Service=HTTP)
+[Network Analyzer (1208: db4)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 49) Server -> Client : 39 bytes 
+[Network Analyzer (1208:29d0)]   (Sid: 44) Server -> Client : 1600 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 44) Server -> Client : 6400 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (1208:31a4)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1208:29d0)]   (Sid: 45) Server -> Client : 1600 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 45) Server -> Client : 1600 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 45) Connection Terminated (by Client)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 15) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:31a4)] SSLAccept(ssl_id = 236206488 = 0E143998) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:31a4)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 46) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 47) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 47) Server -> Client : 5187 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 48) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 47) Server -> Client : 5543 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 48) Server -> Client : 4802 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 50) Server -> Client : 8002 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 47) Server -> Client : 427 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 50) Server -> Client : 5187 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 47) Connection Terminated (by Server)
+[Network Analyzer (1208: db4)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: db4)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 52)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 52) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 52) Server -> Client : 39 bytes 
+[Network Analyzer (1208:36dc)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 16) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 16) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:36dc)] SSLAccept(ssl_id = 236206488 = 0E143998) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:36dc)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 52) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent 5_ViewTransactions_Client [WebMultiInProcNotify_x64:  (1c64:1f94)] Insert Text Check: "All Transactions Details of Account: 123456 "
+[Network Analyzer (1c64:1b94)]   (Sid:  2) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent 6_Logout [Network Analyzer (1208:2e48)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:29d0)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (1208:20cc)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2e48)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 53)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/logout.action"   
+[Network Analyzer (1208:29d0)]   (Sid: 53) Client -> Server @ : 413 bytes (Service=HTTP)
+[Network Analyzer (1208:20cc)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 54)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 53) Server -> Client : 165 bytes  (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/login-portal.jsp"   
+[Network Analyzer (1208:29d0)]   (Sid: 54) Client -> Server @ : 416 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 54) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 54) Server -> Client : 144 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 54) Server -> Client : 1342 bytes  (Service=HTTP)
+[Network Analyzer (1208:16d0)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1334)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208: 284)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:20cc)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2e48)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 53) Client -> Server @ : 397 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 54) Client -> Server @ : 408 bytes (Service=HTTP)
+[Network Analyzer (1208: b30)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:1b1c)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:16d0)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 55)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/basic.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 55) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (1208:1334)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 56)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/css/login.css"   
+[Network Analyzer (1208:29d0)]   (Sid: 56) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (1208: 284)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 57)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/img/logo.png"   
+[Network Analyzer (1208:29d0)]   (Sid: 57) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (1208:20cc)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (1208:2e48)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 59)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 58) Client -> Server @ : 164 bytes (Service=HTTP)
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/jquery.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 59) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (1208: b30)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 60)  PROXIED!
+[Web Request      (1208:29d0)] "GET http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"   
+[Network Analyzer (1208:29d0)]   (Sid: 60) Client -> Server @ : 415 bytes (Service=HTTP)
+[Network Analyzer (1208:1b1c)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (1208:29d0)]   (Sid: 53) Server -> Client : 4800 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 58) Server -> Client : 39 bytes 
+[Network Analyzer (1208:29d0)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 54) Server -> Client : 6400 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (1208:1bac)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 15) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 15) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208:1bac)] SSLAccept(ssl_id = 236205512 = 0E1435C8) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208:1bac)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 55) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 55) Server -> Client : 4802 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 58) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 56) Server -> Client : 8387 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 57) Server -> Client : 3200 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 57) Server -> Client : 4562 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 57) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 59) Server -> Client : 8387 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 59) Server -> Client : 5876 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 59) Connection Terminated (by Client)
+[Network Analyzer (1208:29d0)]   (Sid: 60) Server -> Client : 8002 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 60) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 60) Connection Terminated (by Client)
+[Network Analyzer (1208:2970)] Address lookup for DESKTOP-RVTA72N = 10.109.60.187
+[Network Analyzer (1208:2970)] Request Connection: Remote Server @ 199.19.250.205:80   (Service=)  (Sid= 62)  PROXIED!
+[Web Request      (1208:29d0)] "CONNECT urs.microsoft.com:443"   
+[Network Analyzer (1208:29d0)]   (Sid: 62) Client -> Server @ : 164 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 62) Server -> Client : 39 bytes 
+[Network Analyzer (1208: c8c)]   (Sid: 62) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1208:29d0)] "GET http://www.microsoft.com/pki/mscorp/Microsoft%20IT%20TLS%20CA%205.crt"   
+[Network Analyzer (1208:29d0)]   (Sid: 16) Client -> Server @ : 192 bytes (Service=HTTP)
+[Network Analyzer (1208:29d0)]   (Sid: 16) Server -> Client : 1869 bytes  (Service=HTTP)
+[Net An. Error    (1208: c8c)] SSLAccept(ssl_id = 236205024 = 0E1433E0) Failed, ctx = 0E1424A0, err = "SSLv3 read client key exchange A", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1208: c8c)]   (Sid: 62) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1208:29d0)]   (Sid: 62) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent 6_Logout 

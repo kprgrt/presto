@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Mon, 22 Jan 2018 17:10:00 GMT
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"1510-1511294042000"
+Last-Modified: Tue, 21 Nov 2017 19:54:02 GMT
+Content-Type: image/x-icon
+Connection: Keep-Alive
+Content-Length: 1510
+

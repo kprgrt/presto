@@ -1,0 +1,13 @@
+POST http://35.162.119.3/Presto/emp/deposit HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://35.162.119.3/Presto/emp/addtrans.jsp
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Host: 35.162.119.3
+Proxy-Connection: Keep-Alive
+Pragma: no-cache
+Cookie: JSESSIONID=CCA055158D5E7A29143DCAD0477898B5
+Accept-Encoding: gzip, deflate
+Content-Length: 63
+

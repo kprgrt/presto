@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Project\POC_Scripts\Devops_app\Presto_Client_ViewTransactions
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\project\poc_scripts\devops_app\presto_client_viewtransactions\\logfile.log
+d:\project\poc_scripts\devops_app\presto_client_viewtransactions\\combined_Presto_Client_ViewTransactions.c
+d:\project\poc_scripts\devops_app\presto_client_viewtransactions\\pre_cci.c

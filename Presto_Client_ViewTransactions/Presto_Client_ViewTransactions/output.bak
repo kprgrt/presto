@@ -1,0 +1,28 @@
+Virtual User Script started at: 23/01/2018 10:11:00
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\Project\POC_Scripts\Devops_app\Presto_Client_ViewTransactions\\default.cfg"  	[MsgId: MMSG-27141]
+Starting to download the proxy automatic configuration script, URL="http://sgnautoproxy.sgn.ssegroup.net:8008/sgntestproxy-BlueCoat.dat"  	[MsgId: MMSG-27097]
+Proxy automatic configuration script (URL="http://sgnautoproxy.sgn.ssegroup.net:8008/sgntestproxy-BlueCoat.dat") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "Presto_Client_01_HomePage" started.
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(12): web_url("Presto") started  	[MsgId: MMSG-26355]
+Action.c(12): Error -26366: "Text=Welcome to Presto Banking Application" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(12): web_url("Presto") highest severity level was "ERROR", 6865 body bytes, 249 header bytes  	[MsgId: MMSG-26388]
+Action.c(12): Notify: Transaction "Presto_Client_01_HomePage" ended with a "Fail" status (Duration: 0.9825 Wasted Time: 0.0958).
+Action.c(12): Notify: Transaction "Presto_Client_01_HomePage" has 1 error message(s).
+Action.c(12): Notify: The 1st error message associated with transaction "Presto_Client_01_HomePage" is "Error -26366: "Text=Welcome to Presto Banking Application" not found for web_reg_find"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

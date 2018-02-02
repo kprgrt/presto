@@ -1,0 +1,28 @@
+Virtual User Script started at: 23/01/2018 10:46:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\Project\POC_Scripts\Devops_app\Presto_Employee_ViewTransactions\\default.cfg"  	[MsgId: MMSG-27141]
+Starting to download the proxy automatic configuration script, URL="http://sgnautoproxy.sgn.ssegroup.net:8008/sgntestproxy-BlueCoat.dat"  	[MsgId: MMSG-27097]
+Proxy automatic configuration script (URL="http://sgnautoproxy.sgn.ssegroup.net:8008/sgntestproxy-BlueCoat.dat") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(11): Notify: Transaction "Presto_Employee_01_HomePage" started.
+Action.c(13): web_url("Presto") started  	[MsgId: MMSG-26355]
+Action.c(13): Failed to connect to proxy {url}:80 - DNS resolving failed (gethostbyname error code=11001: No such host is known.
+). Retrying with next proxy  	[MsgId: MMSG-26000]
+Action.c(13): Error -27720: Resolve/connect failed for the following proxies specified in the automatic configuration script: "DIRECT". Requested URL is "http://{URL}/Presto/".  	[MsgId: MERR-27720]
+Action.c(13): web_url("Presto") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(13): Notify: Transaction "Presto_Employee_01_HomePage" ended with a "Fail" status (Duration: 0.1352 Wasted Time: 0.1231).
+Action.c(13): Notify: Transaction "Presto_Employee_01_HomePage" has 1 error message(s).
+Action.c(13): Notify: The 1st error message associated with transaction "Presto_Employee_01_HomePage" is "Error -27720: Resolve/connect failed for the following proxies specified in the automatic configuration script: "DIRECT". Requested URL is "http://{URL}/Presto/"."
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

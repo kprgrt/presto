@@ -1,0 +1,78 @@
+Virtual User Script started at: 23/01/2018 10:47:28
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\Project\POC_Scripts\Devops_app\Presto_Employee_ViewTransactions\\default.cfg"  	[MsgId: MMSG-27141]
+Starting to download the proxy automatic configuration script, URL="http://sgnautoproxy.sgn.ssegroup.net:8008/sgntestproxy-BlueCoat.dat"  	[MsgId: MMSG-27097]
+Proxy automatic configuration script (URL="http://sgnautoproxy.sgn.ssegroup.net:8008/sgntestproxy-BlueCoat.dat") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(11): Notify: Transaction "Presto_Employee_01_HomePage" started.
+Action.c(13): web_url("Presto") started  	[MsgId: MMSG-26355]
+Action.c(13): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(13): web_url("Presto") was successful, 6874 body bytes, 249 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_url("favicon.ico") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(22): web_url("favicon.ico") was successful, 1510 body bytes, 255 header bytes  	[MsgId: MMSG-26386]
+Action.c(30): Notify: Transaction "Presto_Employee_01_HomePage" ended with a "Pass" status (Duration: 1.2796 Wasted Time: 0.1886).
+Action.c(34): Notify: Transaction "Presto_Employee_02_ClickLoginLink" started.
+Action.c(36): web_url("Login Portal") started  	[MsgId: MMSG-26355]
+Action.c(36): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(36): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(36): web_url("Login Portal") was successful, 4038 body bytes, 168 header bytes  	[MsgId: MMSG-26386]
+Action.c(45): web_url("login.css") started  	[MsgId: MMSG-26355]
+Action.c(45): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(45): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(45): web_url("login.css") was successful, 776 body bytes, 249 header bytes  	[MsgId: MMSG-26386]
+Action.c(53): Notify: Transaction "Presto_Employee_02_ClickLoginLink" ended with a "Pass" status (Duration: 0.5072 Wasted Time: 0.0437).
+Action.c(57): Notify: Transaction "Presto_Employee_03_SelectUser" started.
+Action.c(59): web_url("login.jsp") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(59): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(59): web_url("login.jsp") was successful, 4340 body bytes, 168 header bytes  	[MsgId: MMSG-26386]
+Action.c(68): Notify: Transaction "Presto_Employee_03_SelectUser" ended with a "Pass" status (Duration: 0.2947 Wasted Time: 0.0247).
+Action.c(70): Notify: Transaction "Presto_Employee_04_Login" started.
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(78): web_submit_data("emplogin") started  	[MsgId: MMSG-26355]
+Action.c(78): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(78): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(78): Notify: Parameter Substitution: parameter "user" =  "mgr1"
+Action.c(78): Notify: Next row for parameter password = 1 [table  = password].
+Action.c(78): Notify: Parameter Substitution: parameter "password" =  "mgr1"
+Action.c(78): Notify: Next row for parameter bankid = 1 [table  = bankid].
+Action.c(78): Notify: Parameter Substitution: parameter "bankid" =  "567890"
+Action.c(78): Redirecting "http://35.162.119.3/Presto/emp/emplogin" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(78): To location "http://35.162.119.3/Presto/emp/welcome.jsp"  	[MsgId: MMSG-26693]
+Action.c(78): Registered web_reg_find successful for "Text=Welcome,mgr1" (count=1)  	[MsgId: MMSG-26364]
+Action.c(78): web_submit_data("emplogin") was successful, 5861 body bytes, 332 header bytes  	[MsgId: MMSG-26386]
+Action.c(91): Notify: Transaction "Presto_Employee_04_Login" ended with a "Pass" status (Duration: 0.8340 Wasted Time: 0.0235).
+Action.c(95): Notify: Transaction "Presto_Employee_05_ViewTransactions_Link" started.
+Action.c(97): web_url("View Transactions") started  	[MsgId: MMSG-26355]
+Action.c(97): web_url("View Transactions") was successful, 4471 body bytes, 168 header bytes  	[MsgId: MMSG-26386]
+Action.c(106): Notify: Transaction "Presto_Employee_05_ViewTransactions_Link" ended with a "Pass" status (Duration: 0.3507 Wasted Time: 0.0161).
+Action.c(110): Notify: Transaction "Presto_Employee_06_ViewTransactions" started.
+Action.c(112): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(112): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(117): web_submit_data("viewcls") started  	[MsgId: MMSG-26355]
+Action.c(117): Registered web_reg_find successful for "Text=All Transactions Details of Account" (count=1)  	[MsgId: MMSG-26364]
+Action.c(117): web_submit_data("viewcls") was successful, 15005 body bytes, 174 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(129): Notify: Transaction "Presto_Employee_06_ViewTransactions" ended with a "Pass" status (Duration: 0.7723 Wasted Time: 0.0172).
+Action.c(133): Notify: Transaction "Presto_Employee_07_logout" started.
+Action.c(135): web_url("Logout") started  	[MsgId: MMSG-26355]
+Action.c(135): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(135): Notify: Parameter Substitution: parameter "URL" =  "35.162.119.3"
+Action.c(135): Redirecting "http://35.162.119.3/Presto/emp/logout.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(135): To location "http://35.162.119.3/Presto/login-portal.jsp"  	[MsgId: MMSG-26693]
+Action.c(135): web_url("Logout") was successful, 4038 body bytes, 333 header bytes  	[MsgId: MMSG-26386]
+Action.c(144): Notify: Transaction "Presto_Employee_07_logout" ended with a "Pass" status (Duration: 0.6009 Wasted Time: 0.0157).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

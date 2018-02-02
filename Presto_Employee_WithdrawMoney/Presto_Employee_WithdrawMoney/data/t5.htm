@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+   	
+   	
+   	<!--Modifications to Some Class--><!--Insert After Main CSS-->
+   	<link href="../css/basic.css" rel="stylesheet" media="screen">
+   	<link rel="shortcut icon" href="../favicon.ico">
+   	<link href="../css/login.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+   
+<header>
+	<div class="container-main">
+		<div class="row-fluid">
+			<div class="span4">
+				<div id="logo" style="margin: 10px; width: 275px;">
+					<img src="../img/logo.png" alt="">
+				</div>
+
+			</div>
+
+			<div class="span6 offset2" style="margin-top: 50px;">
+
+				<ul class="nav nav-pills">
+					<li><a href="../index.jsp">Home</a></li>
+					<li><a href="../about-us.jsp">About Us</a></li>
+					<li><a href="../contact-us.jsp">Contact Us</a></li>
+					<li><a href="../detail">Find ATM/Branch</a></li>
+					
+
+
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+</header>
+
+<div class="container-main">
+
+
+	<div class="navbar navbar-inverse ">
+
+		<div class="navbar-inner">
+
+
+
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">Personal Banking <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="../login-portal.jsp">Login Portal</a></li>
+							<li><a href="../detail">Find Branch</a></li>
+							
+							<li class="divider"></li>
+							<li class="nav-header">Tips/Charges</li>
+							<li><a href="../safe-banking-tips.jsp">Online Banking</a></li>
+							<li><a href="../service-charges.jsp">Service Charges</a></li>
+						</ul></li>
+					<li><a href="../service-charges.jsp">Service Charges</a></li>
+					<li><a href="../interest-rate.jsp">Interest Rate</a></li>
+					<li><a href="../forex.jsp">FOREX Card Rate</a></li>
+					<li><a href="../safe-banking-tips.jsp">Safe Banking Tips</a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!-- /.navbar-inner -->
+	</div>
+	<!-- /.navbar -->
+</div>
+
+
+   <section>
+		<div class="container">
+
+			<div class="row-fluid">
+
+
+				<div class="container" style="margin-top: 100px;">
+
+					
+					<div class="container">
+					<div class="span3"></div>
+					<div class="span6">
+					<div class="alert alert-info">
+					Welcome To Employee Login Page
+					</div>
+					</div>
+					<div class="span3"></div>
+					</div>
+					
+					
+
+					<form id="emplogin" name="emplogin" action="emplogin" method="post" class="form-signin">
+<table class="form-signin">
+						<h3 class="form-signin-heading">Employee Login</h3>
+
+						<tr>
+    <td class="tdLabel"><label for="userName" class="label">Username:</label></td>
+    <td
+><input type="text" name="userName" value="" id="userName" class="input-block-level" placeholder="User Name"/></td>
+</tr>
+
+						<tr>
+    <td class="tdLabel"><label for="emplogin_password" class="label">Password:</label></td>
+    <td
+><input type="password" name="password" id="emplogin_password" class="input-block-level" placeholder="Password"/></td>
+</tr>
+
+							<tr>
+    <td class="tdLabel"><label for="emplogin_bank_id" class="label">Bank_Id:</label></td>
+    <td
+><input type="text" name="bank_id" value="" id="emplogin_bank_id" class="input-block-level" placeholder="Employee Bank_ID"/></td>
+</tr>
+
+						<tr>
+    <td colspan="2"><div align="right"><input type="submit" id="emplogin_0" value="Login" class="btn btn-large btn-primary"/>
+</div></td>
+</tr>
+
+
+					</table></form>
+
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+			<footer>
+	<div id="footer-container-content">
+		<p>
+			� 2013 Presto - <a class="footer" href="" target="_blank"
+				title="Terms and Conditions">Terms and Conditions</a> | <a
+				class="footer" href="../contact.jsp" title="Contact">Contact</a> |
+		</p>
+	</div>
+</footer>
+		</div>
+	</section>
+   
+   
+   
+   
+   
+   
+    
+    
+    
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    
+  </body>
+</html>

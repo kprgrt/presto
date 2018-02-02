@@ -1,0 +1,537 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 44,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Jan-22-2018",
+    "RecordingDuration": 159719,
+    "RecordingTimeStamp": 1516640794,
+    "TotalBytesReceived": 407656,
+    "TotalBytesSent": 20980,
+    "TotalRequests": 52
+  },
+  "HostInfo": [
+    {
+      "DomainName": "35.162.119.3",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.162.119.3",
+          "IncludeInScript": true,
+          "Name": "35.162.119.3",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 788,
+              "HttpStatus": 403,
+              "Size": 10566,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 784,
+              "HttpStatus": 403,
+              "Size": 14107,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 779,
+              "HttpStatus": 403,
+              "Size": 7606,
+              "URL": "http://35.162.119.3/Presto/img/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 777,
+              "HttpStatus": 403,
+              "Size": 8231,
+              "URL": "http://35.162.119.3/Presto/css/login.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 343,
+              "EventId": 772,
+              "HttpStatus": 403,
+              "Size": 7846,
+              "URL": "http://35.162.119.3/Presto/css/basic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 234,
+              "EventId": 767,
+              "HttpStatus": 403,
+              "Size": 6244,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 760,
+              "HttpStatus": 403,
+              "Size": 4644,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1094,
+              "EventId": 742,
+              "HttpStatus": 200,
+              "Size": 4038,
+              "URL": "http://35.162.119.3/Presto/login-portal.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1938,
+              "EventId": 740,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://35.162.119.3/Presto/logout.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 718,
+              "HttpStatus": 403,
+              "Size": 13033,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 713,
+              "HttpStatus": 403,
+              "Size": 7846,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 710,
+              "HttpStatus": 403,
+              "Size": 14201,
+              "URL": "http://35.162.119.3/Presto/img/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 706,
+              "HttpStatus": 403,
+              "Size": 3044,
+              "URL": "http://35.162.119.3/Presto/css/basic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 700,
+              "HttpStatus": 403,
+              "Size": 3044,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 696,
+              "HttpStatus": 403,
+              "Size": 7844,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1500,
+              "EventId": 677,
+              "HttpStatus": 200,
+              "Size": 10344,
+              "URL": "http://35.162.119.3/Presto/user/viewcl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 658,
+              "HttpStatus": 403,
+              "Size": 14247,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 656,
+              "HttpStatus": 403,
+              "Size": 14201,
+              "URL": "http://35.162.119.3/Presto/img/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 652,
+              "HttpStatus": 403,
+              "Size": 13033,
+              "URL": "http://35.162.119.3/Presto/css/basic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 648,
+              "HttpStatus": 403,
+              "Size": 8231,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 642,
+              "HttpStatus": 403,
+              "Size": 7846,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 235,
+              "EventId": 635,
+              "HttpStatus": 403,
+              "Size": 4644,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 623,
+              "HttpStatus": 200,
+              "Size": 4501,
+              "URL": "http://35.162.119.3/Presto/user/welcome.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 621,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://35.162.119.3/Presto/user/clientlogin"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 601,
+              "HttpStatus": 403,
+              "Size": 14260,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 598,
+              "HttpStatus": 403,
+              "Size": 14247,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 596,
+              "HttpStatus": 403,
+              "Size": 10951,
+              "URL": "http://35.162.119.3/Presto/img/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 592,
+              "HttpStatus": 403,
+              "Size": 7846,
+              "URL": "http://35.162.119.3/Presto/css/login.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 587,
+              "HttpStatus": 403,
+              "Size": 3044,
+              "URL": "http://35.162.119.3/Presto/css/basic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 583,
+              "HttpStatus": 403,
+              "Size": 3044,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 579,
+              "HttpStatus": 403,
+              "Size": 10187,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 4414,
+              "URL": "http://35.162.119.3/Presto/user/login.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 526,
+              "HttpStatus": 403,
+              "Size": 14208,
+              "URL": "http://35.162.119.3/Presto/css/login.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 407,
+              "EventId": 524,
+              "HttpStatus": 403,
+              "Size": 7846,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 518,
+              "HttpStatus": 403,
+              "Size": 14260,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 516,
+              "HttpStatus": 403,
+              "Size": 13033,
+              "URL": "http://35.162.119.3/Presto/css/basic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 510,
+              "HttpStatus": 403,
+              "Size": 14201,
+              "URL": "http://35.162.119.3/Presto/img/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 506,
+              "HttpStatus": 403,
+              "Size": 4404,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 496,
+              "HttpStatus": 403,
+              "Size": 4644,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 477,
+              "HttpStatus": 200,
+              "Size": 4038,
+              "URL": "http://35.162.119.3/Presto/login-portal.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 375,
+              "EventId": 441,
+              "HttpStatus": 200,
+              "Size": 1510,
+              "URL": "http://35.162.119.3/Presto/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 984,
+              "EventId": 431,
+              "HttpStatus": 403,
+              "Size": 1204,
+              "URL": "http://35.162.119.3/Presto/css/basic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 969,
+              "EventId": 429,
+              "HttpStatus": 403,
+              "Size": 1204,
+              "URL": "http://35.162.119.3/Presto/img/slide-02.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1047,
+              "EventId": 425,
+              "HttpStatus": 403,
+              "Size": 3924,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap-responsive.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 421,
+              "HttpStatus": 403,
+              "Size": 4404,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/holder.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 418,
+              "HttpStatus": 403,
+              "Size": 3044,
+              "URL": "http://35.162.119.3/Presto/img/slide-03.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 414,
+              "HttpStatus": 403,
+              "Size": 14260,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/bootstrap.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 404,
+              "HttpStatus": 403,
+              "Size": 14107,
+              "URL": "http://35.162.119.3/Presto/bootstrap/js/jquery.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 402,
+              "HttpStatus": 403,
+              "Size": 7846,
+              "URL": "http://35.162.119.3/Presto/img/slide-01.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 397,
+              "HttpStatus": 403,
+              "Size": 14107,
+              "URL": "http://35.162.119.3/Presto/img/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 609,
+              "EventId": 395,
+              "HttpStatus": 403,
+              "Size": 1204,
+              "URL": "http://35.162.119.3/Presto/bootstrap/css/bootstrap.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 468,
+              "EventId": 374,
+              "HttpStatus": 200,
+              "Size": 6874,
+              "URL": "http://35.162.119.3/Presto/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": false
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

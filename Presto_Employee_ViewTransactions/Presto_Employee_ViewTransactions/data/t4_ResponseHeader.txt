@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Tue, 23 Jan 2018 09:45:13 GMT
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"776-1508754444000"
+Last-Modified: Mon, 23 Oct 2017 10:27:24 GMT
+Content-Type: text/css
+Connection: Keep-Alive
+Content-Length: 776
+

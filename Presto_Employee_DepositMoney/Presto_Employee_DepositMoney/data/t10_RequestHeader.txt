@@ -1,0 +1,10 @@
+GET http://35.162.119.3/Presto/emp/addwith.jsp HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://35.162.119.3/Presto/emp/welcome.jsp
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Host: 35.162.119.3
+Proxy-Connection: Keep-Alive
+Cookie: JSESSIONID=CCA055158D5E7A29143DCAD0477898B5
+Accept-Encoding: gzip, deflate
+

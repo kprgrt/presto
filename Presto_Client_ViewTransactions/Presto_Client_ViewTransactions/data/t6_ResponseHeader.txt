@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Mon, 22 Jan 2018 17:09:58 GMT
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Length: 6874
+Connection: Keep-Alive
+Set-Cookie: JSESSIONID=8D8ADF743CF507AE3B55FC2475D57374; Path=/Presto; HttpOnly
+

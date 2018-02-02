@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <!-- Note: It is strongly recommended that you do NOT make large changes to this file. Changing DOM structure or classes may prevent
+         the page from functioning correctly. Especially important pieces have been marked as such with comments
+         and should not be changed for any reason. -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="never" />
+    <title localize="[content_filter_denied.httpMessage]">Access Denied</title>
+
+
+
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        WARNING: DO NOT REMOVE!
+        THIS SECTION LOADS ALL PAGE FUNCTIONALITY
+        REMOVING THIS WILL PREVENT BLOCK PAGES FROM FUNCTIONING CORRECTLY
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- START --- DO NOT REMOVE --- START -->
+        <script type="text/javascript">
+            // evaluate these on the proxy and make them available as js vars...
+var hashedpw = "";
+var jumpto = "";
+
+var coach_continue_url = "";
+var application_name = "none";
+var application_action_name = "-";
+var response_categories = "Placeholders";
+var url_host = "35.162.119.3";
+var url_address = "35.162.119.3";
+var url_port = "80";
+var client_address = "10.109.60.187";
+var category_review_url = "http://sitereview.bluecoat.com/sitereview.jsp?referrer=136&url=http://35.162.119.3/Presto/bootstrap/js/bootstrap.js";
+var last_error = "";
+var x_cs_auth_form_action_url = "https://saml.threatpulse.net:8443/?bcfru=aHR0cDovLzM1LjE2Mi4xMTkuMy9QcmVzdG8vYm9vdHN0cmFwL2pzL2Jvb3RzdHJhcC5qcw==";
+var x_auth_challenge_string = "";
+var x_cs_auth_form_domain_field = "";
+var cs_username = "arun.negi@sgn.co.uk";
+var x_cs_auth_request_id = "";
+var x_auth_private_challenge_state = "";
+var sc_auth_status = "";
+var reason = "Either 'force_deny' or 'force_exception' was matched in policy";
+var method = "GET";
+var x_radius_splash_username = "";
+var x_radius_splash_session_id = "0";
+var x_rs_ocsp_error = "";
+var x_virus_id = "";
+var x_virus_details = "";
+var empty = "";
+var ssl_failure_reason = "";
+var server_connection_socket_errno = "";
+var icap_error_details = "";
+var redirect_location = "";
+
+window.onload = function() {
+    var externalLinks = function() {
+        if (!document.getElementsByTagName) return;
+        var anchors = document.getElementsByTagName("a");
+        for (var i=0; i<anchors.length; i++) {
+            var anchor = anchors[i];
+            var rel = anchor.getAttribute("rel") || '';
+            if (anchor.getAttribute("href") && rel === "external") {
+                anchor.target = "_blank";
+            }
+            anchor.setAttribute("rel", rel + " noreferrer");
+        }
+    };
+    externalLinks();
+
+    if (errors.length != 0 ) {
+        var localize = function() {
+            var find = $("[localize]");
+
+            $(find).each(function(){
+                var transTxtKey;
+                var key=$(this).attr('localize').replace("[","").replace("]","");
+                var keys=key.split(/\./);
+
+              
