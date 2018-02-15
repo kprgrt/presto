@@ -21,13 +21,13 @@ def zipDir(source_dir,output_filename):
                         
 def getTokenAndScripts(signin_url,user_name,password,tenant):
     global cookie
-	global proxy
+    global proxy
     payload = { "user": user_name, "password": password }
     headers = {
         'accept': 'application/json',
         'content-type': 'application/json'
     }
-	proxy = { 
+    proxy = { 
         "http"  : "http://ep.threatpulse.net:80"
     }
     # Send the request to the server
