@@ -3,7 +3,7 @@ import os
 import json
 import imp
 import argparse
-import easy_install
+from setuptools.command import easy_install
 
 
 def zipDir(source_dir,output_filename):
