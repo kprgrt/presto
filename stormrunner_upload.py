@@ -1,6 +1,5 @@
 import zipfile
 import os
-import requests
 import json
 import imp
 import argparse
@@ -74,7 +73,7 @@ except ImportError:
     print("requests package not found, installing...")
     easy_install.main(["-U","requests"])
     
-
+import requests
 
 folders = next(os.walk(source_dir))[1]
 for folder in folders:
