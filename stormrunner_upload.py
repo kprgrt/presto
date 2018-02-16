@@ -83,7 +83,8 @@ for folder in folders:
       print("Updating "+target_ip+" in " +folder)
       wr = open(file, 'w')
       wr.write("URL\n")
-      wr.write(target_ip)      
+      wr.write(target_ip)
+      wr.close()
       output_filename = source_dir+folder+".zip"
       print("zipping "+output_filename)
       zipDir(source_dir+"/"+folder, output_filename)
