@@ -24,9 +24,7 @@ def GetParameter(key):
         data = json.loads(jsonResponse)
         
         if(data['Parameters'][0]['Name']==key):
-	    value = data['Parameters'][0]['Value']
-	    print(value)
-	    print(value.encode("ascii","replace"))	
+	    value = data['Parameters'][0]['Value']	
             return value.encode("ascii","replace")
     
     except ClientError as e:
@@ -57,7 +55,7 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
         "http"  : "http://ep.threatpulse.net:80"
     }
     # Send the request to the server
-    req = requests.post(signin_url, json=json.dumps(payload), headers=headers, proxies=proxy)
+    req = requests.post(signin_url, json=payload, headers=headers, proxies=proxy)
     req.raise_for_status()                   
     # Get the response
     response = json.loads(req.content.decode('utf-8'))
