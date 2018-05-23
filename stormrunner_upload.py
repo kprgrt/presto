@@ -45,6 +45,7 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
     global cookie
     global proxy
     payload = { "user": user_name, "password": password }
+	print(payload)
     headers = {
         'accept': 'application/json',
         'content-type': 'application/json'
