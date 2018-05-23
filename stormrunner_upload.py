@@ -3,9 +3,32 @@ import os
 import json
 import imp
 import argparse
+import requests
+import boto3
 from setuptools.command import easy_install
+from botocore.exceptions import ClientError
 
-
+# Gets the parameter from Parameter Store
+def GetParameter(key):
+    
+    try:
+        client = boto3.client('ssm',region_name='eu-west-1')
+        response = client.get_parameters(
+        Names=[
+            key,
+        ],
+         WithDecryption=True
+        )
+        
+        jsonResponse = json.dumps(response)
+        data = json.loads(jsonResponse)
+        
+        if(data['Parameters'][0]['Name']==key):
+            return data['Parameters'][0]['Value']
+    
+    except ClientError as e:
+        print("Error: " + str(e))
+		
 def zipDir(source_dir,output_filename):
     relroot = os.path.abspath(os.path.join(source_dir, os.pardir))
     with zipfile.ZipFile(output_filename, "w", zipfile.ZIP_DEFLATED) as zip:
@@ -30,7 +53,7 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
         "http"  : "http://ep.threatpulse.net:80"
     }
     # Send the request to the server
-    req = requests.post(signin_url, json=payload, headers=headers, proxies=proxy)
+    req = requests.post(signin_url, json=json.dumps(payload), headers=headers, proxies=proxy)
     req.raise_for_status()                   
     # Get the response
     response = json.loads(req.content.decode('utf-8'))
@@ -49,16 +72,16 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("sourceDir", help="test scripts location",type=str)
-parser.add_argument("userName", help="login username of stormrunner",type=str)
-parser.add_argument("password", help="login password of stormrunner",type=str)
-parser.add_argument("tenant", help="stormrunner tenant id",type=str)
+#parser.add_argument("userName", help="login username of stormrunner",type=str)
+#parser.add_argument("password", help="login password of stormrunner",type=str)
+#parser.add_argument("tenant", help="stormrunner tenant id",type=str)
 parser.add_argument("targetIP", help="dynamic IP of target resource",type=str)
 args = parser.parse_args()
 
 source_dir = args.sourceDir+"/"
-user_name = args.userName
-password = args.password
-tenant = args.tenant
+user_name = "devops-support@sgn.co.uk"
+password = GetParameter("StormRunnerSA")
+tenant = GetParameter("StormRunnerTenant")
 target_ip = args.targetIP
 signin_url = "https://stormrunner-load.saas.hpe.com/v1/auth?TENANTID="+tenant
 token = ""
@@ -66,21 +89,21 @@ proxy = ""
 cookie = {'LWSSO_COOKIE_KEY': token}
 i=0
 	
-try:
-    imp.find_module('requests')
-    print("requests package is already installed")
-except ImportError:
-    print("requests package not found, installing...")
-    easy_install.main(["-U","requests"])
+#try:
+#    imp.find_module('requests')
+#    print("requests package is already installed")
+#except ImportError:
+#    print("requests package not found, installing...")
+#    easy_install.main(["-U","requests"])
     
-import requests
+
 
 folders = next(os.walk(source_dir))[1]
 for folder in folders:
     if (folder != ".git"):
-      file = source_dir+folder+"/URL.dat"
+      datfile = source_dir+folder+"/URL.dat"
       print("Updating "+target_ip+" in " +folder)
-      wr = open(file, 'w')
+      wr = open(datfile, 'w')
       wr.write("URL\n")
       wr.write(target_ip)
       wr.close()
