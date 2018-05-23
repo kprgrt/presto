@@ -24,7 +24,7 @@ def GetParameter(key):
         data = json.loads(jsonResponse)
         
         if(data['Parameters'][0]['Name']==key):
-            return data['Parameters'][0]['Value']
+            return data['Parameters'][0]['Value'].encode("ascii","replace")
     
     except ClientError as e:
         print("Error: " + str(e))
