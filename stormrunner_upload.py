@@ -55,7 +55,7 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
         "http"  : "http://ep.threatpulse.net:80"
     }
     # Send the request to the server
-    req = requests.post(signin_url, json=payload, headers=headers, proxies=proxy)
+    req = requests.post(signin_url, data=json.dumps(payload), headers=headers, proxies=proxy)
     req.raise_for_status()                   
     # Get the response
     response = json.loads(req.content.decode('utf-8'))
