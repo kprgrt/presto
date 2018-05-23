@@ -60,8 +60,8 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
     # Get the response
     response = json.loads(req.content.decode('utf-8'))
     token = response["token"]
-    print(token)
-    print('\tToken: {token}'.format(token=token))
+    #print(token)
+    #print('\tToken: {token}'.format(token=token))
     getScripts_url = "https://stormrunner-load.saas.hpe.com/v1/projects/1/scripts?TENANTID="+tenant
     cookie = {'LWSSO_COOKIE_KEY': token}
     r = requests.get(getScripts_url,cookies=cookie,proxies=proxy)
